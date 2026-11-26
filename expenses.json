@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1795706478789",
+    "title": "Groceries",
+    "amount": 1400,
+    "category": "Need"
+  },
+  {
+    "id": "1795706507945",
+    "title": "Rent",
+    "amount": 20000,
+    "category": "Need"
+  },
+  {
+    "id": "1795706542195",
+    "title": "Electricity Bill",
+    "amount": 1500,
+    "category": "Need"
+  },
+  {
+    "id": "1795706571895",
+    "title": "maintainence Bill",
+    "amount": 1000,
+    "category": "Need"
+  },
+  {
+    "id": "1795706619753",
+    "title": "Movie Tickets",
+    "amount": 2000,
+    "category": "Want"
+  },
+  {
+    "id": "1795706635999",
+    "title": "Shopping",
+    "amount": 40000,
+    "category": "Want"
+  },
+  {
+    "id": "1795706662301",
+    "title": "Pizza",
+    "amount": 1000,
+    "category": "Want"
+  },
+  {
+    "id": "1795706684463",
+    "title": "Netflix",
+    "amount": 5000,
+    "category": "Want"
+  }
+]

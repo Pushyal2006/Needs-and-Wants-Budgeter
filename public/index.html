@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Need vs. Want Budgeter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Need vs. Want Budgeter</h1>
+            <p>Track essential expenses separately from discretionary spending</p>
+        </header>
+
+        <!-- Expense Input Form -->
+        <form id="expense-form" class="expense-form">
+            <input type="text" id="title" placeholder="Expense name (e.g., Groceries, Netflix)" required>
+            <input type="number" id="amount" placeholder="Amount (₹)" min="1" step="0.01" required>
+            <select id="category" required>
+                <option value="" disabled selected>Select Category</option>
+                <option value="Need">Need (Essential)</option>
+                <option value="Want">Want (Lifestyle)</option>
+            </select>
+            <button type="submit">Add Expense</button>
+        </form>
+
+        <!-- Summary Bar -->
+        <div class="summary-bar">
+            <div class="summary-card">
+                <span>Total Needs</span>
+                <strong id="total-needs">₹0.00</strong>
+            </div>
+            <div class="summary-card">
+                <span>Total Wants</span>
+                <strong id="total-wants">₹0.00</strong>
+            </div>
+            <div class="summary-card">
+                <span>Overall Total</span>
+                <strong id="total-overall">₹0.00</strong>
+            </div>
+        </div>
+
+        <!-- Two Separate Lists -->
+        <div class="lists-container">
+            <div class="list-box needs-box">
+                <h2>Needs</h2>
+                <ul id="needs-list"></ul>
+            </div>
+
+            <div class="list-box wants-box">
+                <h2>Wants</h2>
+                <ul id="wants-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
